@@ -1,3 +1,6 @@
+#!/usr/bin/env python
+# -*- coding: utf-8 -*-
+
 #coding=UTF8
 
 import time
@@ -5,6 +8,7 @@ import re
 import collections
 import requests
 import uniout
+
 from lxml import etree
 
 
@@ -12,6 +16,7 @@ from lxml import etree
 ##################################################
 # Settings
 ##################################################
+
 
 MAIN_URL = "http://ep.kuas.edu.tw/"
 POST_URL = "http://ep.kuas.edu.tw/EPortfolio/EPDefaultPage.aspx"
@@ -69,4 +74,3 @@ def Login():
 
 if __name__ == '__main__':
 	Login()
-

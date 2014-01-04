@@ -1,1 +1,4 @@
-from ep._core import *
+#!/usr/bin/env python
+# -*- coding: utf-8 -*-
+
+from _core import *

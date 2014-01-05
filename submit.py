@@ -7,7 +7,7 @@ import requests
 import uniout
 from lxml import etree
 import json
-import _core from *
+import _core
 
 
 ##################################################

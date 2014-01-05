@@ -3,37 +3,21 @@
 
 #coding=UTF8
 
-import time
-import re
-import collections
-import requests
-import uniout
-from lxml import etree
-
+import _core
 
 
 ##################################################
 # Settings
 ##################################################
 
-MAIN_URL = "http://ep.kuas.edu.tw/"
-POST_URL = "http://ep.kuas.edu.tw/EPortfolio/EPDefaultPage.aspx"
-ACTIVE_URL="http://ep.kuas.edu.tw/EPortfolio/Activity/ActivitySystem.aspx"
+username     = "Account"
+password     = "Password"
 
-username     = "1102108131"
-password     = "6019"
-
-headers = {}
-headers["User-Agent"] = "Mozilla/5.0 (Windows NT 6.1; WOW64; rv:28.0) Gecko/20100101 Firefox/28.0"
-headers['Accept'] = "zh-tw,en-us;q=0.7,en;q=0.3"
-headers['Accept-Encoding'] = "gzip, deflate"
-headers['Referer'] = "http://ep.kuas.edu.tw/EPortfolio/EPDefaultPage.aspx"
-headers['Connection'] = "keep-alive"
 
 def Login():
 	try:
 		session = requests.session()
-		response = session.get(POST_URL , headers = headers)
+		response = session.get(_core.POST_URL , headers = _core.headers)
 	except Exception, e:
 		raise e
 
@@ -55,7 +39,7 @@ def Login():
 	
 	
 	# RePost Data
-	response = session.post(POST_URL , data = payload, headers = headers)
+	response = session.post(_core.POST_URL , data = payload, headers = _core.headers)
 	
 	root = etree.HTML(response.text)
 	result = root.xpath("//span[@id = 'LoginForm1_LbLoginName']")

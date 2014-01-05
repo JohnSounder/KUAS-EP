@@ -19,4 +19,3 @@ headers['Accept'] = "zh-tw,en-us;q=0.7,en;q=0.3"
 headers['Accept-Encoding'] = "gzip, deflate"
 headers['Referer'] = "http://ep.kuas.edu.tw/EPortfolio/EPDefaultPage.aspx"
 headers['Connection'] = "keep-alive"
-Dict={}

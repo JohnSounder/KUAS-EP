@@ -5,6 +5,7 @@ import re
 import collections
 import requests,uniout
 from lxml import etree
+from bs4 import BeautifulSoup
 import json
 import _core
 
@@ -38,17 +39,18 @@ def Search():
 	
 	# RePost Data
 	response = session.post(_core.ACTIVE_URL , data = payload, headers = _core.headers)
-
+	print response
 	root = etree.HTML(response.text)
-
-        for i in root.xpath("//a[starts-with(@id, 'ContentPlaceHolder1_ContentPlaceHolder1_TabContainer1_PopularPanel_gvPopular_LBact_name_')]"):
-        	print i.text
-        for i in root.xpath("//a[starts-with(@id, 'ContentPlaceHolder1_ContentPlaceHolder1_TabContainer1_OnLinePanel_gvOnLine_LBact_name_')]"):
-       	     print i.text
-       	for i in root.xpath("//input[starts-with(@id, 'ContentPlaceHolder1_ContentPlaceHolder1_TabContainer1_OnLinePanel_gvOnLine_HFact_id_')]"):
-			print i.attrib['value']
-
-	return 
+	print root
+	"""
+    for i in root.xpath("//a[starts-with(@id, 'ContentPlaceHolder1_ContentPlaceHolder1_TabContainer1_PopularPanel_gvPopular_LBact_name_')]"):
+      	print i.text
+    for i in root.xpath("//a[starts-with(@id, 'ContentPlaceHolder1_ContentPlaceHolder1_TabContainer1_OnLinePanel_gvOnLine_LBact_name_')]"):
+        print i.text
+    for i in root.xpath("//input[starts-with(@id, 'ContentPlaceHolder1_ContentPlaceHolder1_TabContainer1_OnLinePanel_gvOnLine_HFact_id_')]"):
+		print i.attrib['value']
+	"""
+	
 if __name__ == '__main__':
 	Search()
 

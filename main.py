@@ -13,7 +13,7 @@ from bs4 import BeautifulSoup
 ##################################################
 
 username     = "1102108131"
-password     = "ri987e3x"
+password     = ""
 
 ACTIVE_URL="http://ep.kuas.edu.tw/EPortfolio/Activity/ActivitySystem.aspx"
 POST_URL = "http://ep.kuas.edu.tw/EPortfolio/EPDefaultPage.aspx"

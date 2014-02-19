@@ -3,8 +3,7 @@
 import time
 import re
 import collections
-import requests
-import uniout
+import requests,uniout
 from lxml import etree
 import json
 import _core

@@ -26,7 +26,7 @@ def search ( session ) :
 	textfield = BeautifulSoup(session.get( _core.ACTIVE_URL, headers = _core.headers).text).select('input[type=text]')
 	hiddenfield = BeautifulSoup(session.get( _core.ACTIVE_URL, headers = _core.headers).text).select('input[type=hidden]')
 	postData = {}
-	rawdata = ['ContentPlaceHolder1_ContentPlaceHolder1_ToolkitScriptManager1_HiddenField',';;AjaxControlToolkit, Version=4.1.51116.0, Culture=neutral, PublicKeyToken=28f01b0e84b6d53e:zh-TW:fd384f95-1b49-47cf-9b47-2fa2a921a36a:de1feab2:f9cec9bc:a0b0f951:a67c2700:fcf0e993:f2c8e708:720a52bf:589eaa30:698129cf:fb9b4c57:ccb96cf9','__EVENTTARGET', 'ctl00$ctl00$ContentPlaceHolder1$ContentPlaceHolder1$TabContainer1','__EVENTARGUMENT','activeTabChanged:0',]
+	rawdata = ['ContentPlaceHolder1_ContentPlaceHolder1_ToolkitScriptManager1_HiddenField',';;AjaxControlToolkit, Version=4.1.51116.0, Culture=neutral, PublicKeyToken=28f01b0e84b6d53e:zh-TW:fd384f95-1b49-47cf-9b47-2fa2a921a36a:de1feab2:f9cec9bc:a0b0f951:a67c2700:fcf0e993:f2c8e708:720a52bf:589eaa30:698129cf:fb9b4c57:ccb96cf9','__EVENTTARGET', 'ctl00$ctl00$ContentPlaceHolder1$ContentPlaceHolder1$TabContainer1$OnLinePanel$APCOnLine$lbShowAll','__EVENTARGUMENT','',]
 	for i in xrange(0 ,len(rawdata), 2):
 		postData[rawdata[i]] = rawdata[i+1]
 
@@ -37,21 +37,24 @@ def search ( session ) :
 		postData[i['name']] = ""
 
 	for i in hiddenfield:
-		if i.has_attr('value') :
+		if i['name'] == '__VIEWSTATE' or i['name'] == '__EVENTVALIDATION' :
 			postData[i['name']] = i['value']
-		else :
-			postData[i['name']] = ""
 
-
-	postData['ContentPlaceHolder1_ContentPlaceHolder1_TabContainer1_ClientState'] = '{"ActiveTabIndex":0,"TabState":[true,true,true,true,true]}'
+	postData['ContentPlaceHolder1_ContentPlaceHolder1_TabContainer1_ClientState'] = '{"ActiveTabIndex":0,"TabState":[true,true,true,true]}'
 	postData['ctl00$ctl00$ContentPlaceHolder1$ContentPlaceHolder1$BTQuery'] = "查詢"
 	postData['ctl00$ctl00$ContentPlaceHolder1$ContentPlaceHolder1$DateTimeBox1$DateFieldBox'] = "2014/02/17"
 	postData['ctl00$ctl00$ContentPlaceHolder1$ContentPlaceHolder1$DateTimeBox2$DateFieldBox'] = "2014/06/30"
 	response = BeautifulSoup(session.post( _core.ACTIVE_URL, data = postData, headers = _core.headers).text)
 	print response
-	
-	for x in postData:
-		print x + "," + postData[x]
+	print "\n\n\n"
+	#Change Tab 
+	postData['__EVENTTARGET'] = 'ctl00$ctl00$ContentPlaceHolder1$ContentPlaceHolder1$TabContainer1'
+	postData['__EVENTARGUMENT'] = 'activeTabChanged:2'
+	postData['ContentPlaceHolder1_ContentPlaceHolder1_TabContainer1_ClientState'] = '{"ActiveTabIndex":2,"TabState":[true,true,true,true]}'
+	response = BeautifulSoup(session.post( _core.ACTIVE_URL, data = postData, headers = _core.headers).text)
+	print response
+	#for x in postData:
+		#print x + "," + postData[x]
 
 if __name__ == '__main__':
 	#login()

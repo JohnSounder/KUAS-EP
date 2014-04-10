@@ -116,7 +116,12 @@ def Search(session):
                             'type': tr[4], 'location': tr[5], 'name': tr[7], 'attendees': tr[9],
                             'status': tr[11]}
 
+    #result_name = root.xpath("//a[starts-with(@id, 'ContentPlaceHolder1_ContentPlaceHolder1_TabContainer1_OnLinePanel_gvOnLine_LBact_name_')]")
+    #result_name = list(map(lambda x: x.text.encode('utf-8'), result_name))
+    #result_id = list(map(lambda x: x.attrib['value'], result_id))
 
+    #for i, j in zip(result_id, result_name):
+    #    result[int(i)] = j
 
     return result
 
@@ -134,6 +139,5 @@ if __name__ == '__main__':
     session_login = Login()
     result = Search(session_login)
 
-    print(result)
 
 

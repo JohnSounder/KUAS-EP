@@ -1,0 +1,822 @@
+{
+    "851": {
+        "attendees": "0", 
+        "date": "2014/5/1", 
+        "end_sign_up_date": "2013/8/28", 
+        "location": "全國性", 
+        "name": "高軟策進會~放視大賞展覽", 
+        "status": "報名截止", 
+        "type": "藝文活動", 
+        "unit": "文創系"
+    }, 
+    "852": {
+        "attendees": "0", 
+        "date": "2014/5/1", 
+        "end_sign_up_date": "2013/8/28", 
+        "location": "全國性", 
+        "name": "2014年高雄青春設計節", 
+        "status": "報名截止", 
+        "type": "藝文活動", 
+        "unit": "文創系"
+    }, 
+    "2940": {
+        "attendees": "1", 
+        "date": "2014/1/15", 
+        "end_sign_up_date": "2014/4/30", 
+        "location": "全國性", 
+        "name": "流浪動物之家 2014愛心義賣", 
+        "status": "報名", 
+        "type": "藝文活動", 
+        "unit": "環安中心環保組"
+    }, 
+    "2942": {
+        "attendees": "0", 
+        "date": "2014/1/15", 
+        "end_sign_up_date": "2014/12/31", 
+        "location": "全國性", 
+        "name": "流浪動物中途之家募款活動", 
+        "status": "報名", 
+        "type": "藝文活動", 
+        "unit": "環安中心環保組"
+    }, 
+    "2987": {
+        "attendees": "30", 
+        "date": "2014/3/20", 
+        "end_sign_up_date": "2014/4/11", 
+        "location": "區域性\n", 
+        "name": "第3期樂活養生操(建工)", 
+        "status": "報名", 
+        "type": "學生活動", 
+        "unit": "學務處衛保組"
+    }, 
+    "2988": {
+        "attendees": "20", 
+        "date": "2014/3/24", 
+        "end_sign_up_date": "2014/4/10", 
+        "location": "區域性\n", 
+        "name": "初階樂活養生操(燕巢)", 
+        "status": "報名截止", 
+        "type": "學生活動", 
+        "unit": "學務處衛保組"
+    }, 
+    "2990": {
+        "attendees": "6", 
+        "date": "2014/3/26", 
+        "end_sign_up_date": "2014/2/28", 
+        "location": "區域性\n", 
+        "name": "校園戒菸班", 
+        "status": "報名截止", 
+        "type": "非正式課程", 
+        "unit": "學務處衛保組"
+    }, 
+    "3000": {
+        "attendees": "20", 
+        "date": "2014/4/18", 
+        "end_sign_up_date": "2014/3/31", 
+        "location": "區域性\n", 
+        "name": "【第11屆優質通識學生學習檔案e化頒獎活動】-改至103/4/18(五)", 
+        "status": "報名截止", 
+        "type": "學生活動", 
+        "unit": "通識教育中心"
+    }, 
+    "3008": {
+        "attendees": "74", 
+        "date": "2014/5/3", 
+        "end_sign_up_date": "2014/4/28", 
+        "location": " ", 
+        "name": "102-2 初級急救員訓練", 
+        "status": "報名", 
+        "type": "非正式課程", 
+        "unit": "學務處衛保組"
+    }, 
+    "3020": {
+        "attendees": "45", 
+        "date": "2014/3/20", 
+        "end_sign_up_date": "2014/3/14", 
+        "location": "區域性\n", 
+        "name": "102學年度第2學期短期課程-日語旅遊會話", 
+        "status": "報名截止", 
+        "type": "學生活動", 
+        "unit": "語文中心"
+    }, 
+    "3021": {
+        "attendees": "60", 
+        "date": "2014/3/18", 
+        "end_sign_up_date": "2014/3/14", 
+        "location": "區域性\n", 
+        "name": "102學年度第2學期短期課程-英文文法與字彙", 
+        "status": "報名截止", 
+        "type": "學生活動", 
+        "unit": "語文中心"
+    }, 
+    "3022": {
+        "attendees": "43", 
+        "date": "2014/3/19", 
+        "end_sign_up_date": "2014/3/14", 
+        "location": "區域性\n", 
+        "name": "102學年度第2學期短期課程-職場面試求生面面觀", 
+        "status": "報名截止", 
+        "type": "學生活動", 
+        "unit": "語文中心"
+    }, 
+    "3023": {
+        "attendees": "44", 
+        "date": "2014/3/20", 
+        "end_sign_up_date": "2014/3/14", 
+        "location": "區域性\n", 
+        "name": "102學年度第2學期短期課程-職場與社交英語會話", 
+        "status": "報名截止", 
+        "type": "學生活動", 
+        "unit": "語文中心"
+    }, 
+    "3030": {
+        "attendees": "30", 
+        "date": "2014/4/22", 
+        "end_sign_up_date": "2014/4/13", 
+        "location": "區域性\n", 
+        "name": "【在最好的時候,遇見你】讀書會", 
+        "status": "人數已滿", 
+        "type": "非正式課程", 
+        "unit": "學務處諮商中心"
+    }, 
+    "3036": {
+        "attendees": "75", 
+        "date": "2014/4/22", 
+        "end_sign_up_date": "2014/4/21", 
+        "location": " ", 
+        "name": "如何找尋創業成功關鍵因子(職涯講座)", 
+        "status": "報名", 
+        "type": "非正式課程", 
+        "unit": "校友中心職輔組"
+    }, 
+    "3040": {
+        "attendees": "1", 
+        "date": "2014/5/3", 
+        "end_sign_up_date": "2014/4/30", 
+        "location": "全國性", 
+        "name": "MOS 2010-Excel 國際資訊證照認證", 
+        "status": "報名", 
+        "type": "學術活動", 
+        "unit": "計算機與網路中心"
+    }, 
+    "3041": {
+        "attendees": "0", 
+        "date": "2014/4/26", 
+        "end_sign_up_date": "2014/4/23", 
+        "location": "全國性", 
+        "name": "MOS 2010-Word國際資訊證照認證", 
+        "status": "報名", 
+        "type": "學術活動", 
+        "unit": "計算機與網路中心"
+    }, 
+    "3042": {
+        "attendees": "1", 
+        "date": "2014/5/3", 
+        "end_sign_up_date": "2014/4/30", 
+        "location": "全國性", 
+        "name": "MOS 2010-PowerPoint 國際資訊證照認證", 
+        "status": "報名", 
+        "type": "學術活動", 
+        "unit": "計算機與網路中心"
+    }, 
+    "3043": {
+        "attendees": "0", 
+        "date": "2014/4/26", 
+        "end_sign_up_date": "2014/4/23", 
+        "location": "全國性", 
+        "name": "MOS 2010-Outlook國際資訊證照認證", 
+        "status": "報名", 
+        "type": "學術活動", 
+        "unit": "計算機與網路中心"
+    }, 
+    "3045": {
+        "attendees": "17", 
+        "date": "2014/4/17", 
+        "end_sign_up_date": "2014/4/14", 
+        "location": "區域性\n", 
+        "name": "103年教職員工四國象棋擂台賽", 
+        "status": "報名", 
+        "type": "藝文活動", 
+        "unit": "人事室第二組"
+    }, 
+    "3117": {
+        "attendees": "0", 
+        "date": "2014/4/11", 
+        "end_sign_up_date": "2014/4/11", 
+        "location": "區域性\n", 
+        "name": "102學年度第2學期日間部 博、碩專題研討邀請演講-----劉國才-----台電電力調度與特殊保護系統之應用", 
+        "status": "報名尚未開始", 
+        "type": "學術活動", 
+        "unit": "電機系"
+    }, 
+    "3118": {
+        "attendees": "61", 
+        "date": "2014/3/18", 
+        "end_sign_up_date": "2014/3/14", 
+        "location": "區域性\n", 
+        "name": "【體適能系列課程】－體適能瑜珈(二)", 
+        "status": "報名截止", 
+        "type": "非正式課程", 
+        "unit": "體育室"
+    }, 
+    "3119": {
+        "attendees": "0", 
+        "date": "2014/5/2", 
+        "end_sign_up_date": "2014/5/2", 
+        "location": "區域性\n", 
+        "name": "102學年度第2學期日間部 博、碩專題研討邀請演講----陳昌本-----尚未議訂", 
+        "status": "報名尚未開始", 
+        "type": "學術活動", 
+        "unit": "電機系"
+    }, 
+    "3121": {
+        "attendees": "0", 
+        "date": "2014/5/9", 
+        "end_sign_up_date": "2014/5/9", 
+        "location": "區域性\n", 
+        "name": "102學年度第2學期日間部 博、碩專題研討邀請演講-----李俊賢-----無線感測網路之技術與應用(Technologies and Applications of Wireless Sensor Networks)", 
+        "status": "報名尚未開始", 
+        "type": "學術活動", 
+        "unit": "電機系"
+    }, 
+    "3125": {
+        "attendees": "0", 
+        "date": "2014/4/11", 
+        "end_sign_up_date": "2014/4/11", 
+        "location": "區域性\n", 
+        "name": "102學年度第2學期 進推處 碩士專班專題研討邀請演講-----劉國才-----台電電力調度與特殊保護系統之應用", 
+        "status": "報名尚未開始", 
+        "type": "學術活動", 
+        "unit": "電機系"
+    }, 
+    "3126": {
+        "attendees": "60", 
+        "date": "2014/3/21", 
+        "end_sign_up_date": "2014/3/14", 
+        "location": "區域性\n", 
+        "name": "【體適能系列課程】－雕塑有氧(五)", 
+        "status": "報名截止", 
+        "type": "非正式課程", 
+        "unit": "體育室"
+    }, 
+    "3127": {
+        "attendees": "0", 
+        "date": "2014/5/2", 
+        "end_sign_up_date": "2014/5/2", 
+        "location": "區域性\n", 
+        "name": "102學年度第2學期 進推處 碩士專班專題研討邀請演講-----李俊賢-----無線感測網路之技術與應用(Technologies and Applications of Wireless Sensor Networks)", 
+        "status": "報名尚未開始", 
+        "type": "學術活動", 
+        "unit": "電機系"
+    }, 
+    "3139": {
+        "attendees": "0", 
+        "date": "2014/3/18", 
+        "end_sign_up_date": "2014/3/5", 
+        "location": "區域性\n", 
+        "name": "102學年度第2學期教職員工電腦研習班-Excel研習班", 
+        "status": "報名截止", 
+        "type": "學術活動", 
+        "unit": "人事室第二組"
+    }, 
+    "3140": {
+        "attendees": "0", 
+        "date": "2014/3/18", 
+        "end_sign_up_date": "2014/3/5", 
+        "location": "區域性\n", 
+        "name": "102學年度第2學期教職員工電腦研習班-Word研習班 ", 
+        "status": "報名截止", 
+        "type": "學術活動", 
+        "unit": "人事室第二組"
+    }, 
+    "3142": {
+        "attendees": "100", 
+        "date": "2014/4/21", 
+        "end_sign_up_date": "2014/4/18", 
+        "location": "區域性\n", 
+        "name": "【建工校區】健康講座：如何吃得安心；營養健康", 
+        "status": "人數已滿", 
+        "type": "非正式課程", 
+        "unit": "學務處衛保組"
+    }, 
+    "3157": {
+        "attendees": "17", 
+        "date": "2014/4/30", 
+        "end_sign_up_date": "2014/4/30", 
+        "location": "區域性\n", 
+        "name": "103學年度房東座談會(建工校區)", 
+        "status": "報名", 
+        "type": "學術活動", 
+        "unit": "學務處生輔組"
+    }, 
+    "3167": {
+        "attendees": "0", 
+        "date": "2014/3/13", 
+        "end_sign_up_date": "2014/3/7", 
+        "location": "區域性\n", 
+        "name": "102學年度第2學期教職員工全民英檢班", 
+        "status": "報名截止", 
+        "type": "學術活動", 
+        "unit": "人事室第二組"
+    }, 
+    "3178": {
+        "attendees": "0", 
+        "date": "2014/5/14", 
+        "end_sign_up_date": "2014/5/14", 
+        "location": " ", 
+        "name": "全國學生美展開幕", 
+        "status": "報名尚未開始", 
+        "type": "非正式課程", 
+        "unit": "通識中心推廣組"
+    }, 
+    "3181": {
+        "attendees": "66", 
+        "date": "2014/4/28", 
+        "end_sign_up_date": "2014/4/25", 
+        "location": "區域性\n", 
+        "name": "(燕巢校區)AED(自動體外心臟電擊去顫器)操作暨CPR緊急救護教育訓練(完訓有結業證書) ", 
+        "status": "報名", 
+        "type": "非正式課程", 
+        "unit": "學務處衛保組"
+    }, 
+    "3185": {
+        "attendees": "0", 
+        "date": "2014/5/8", 
+        "end_sign_up_date": "2014/5/8", 
+        "location": "區域性\n", 
+        "name": "燕巢校區消防自衛編組訓練", 
+        "status": "報名尚未開始", 
+        "type": "學生活動", 
+        "unit": "環安中心環保組"
+    }, 
+    "3186": {
+        "attendees": "48", 
+        "date": "2014/5/6", 
+        "end_sign_up_date": "2014/5/1", 
+        "location": " ", 
+        "name": "節稅概念(職涯講座)", 
+        "status": "報名", 
+        "type": "非正式課程", 
+        "unit": "校友中心職輔組"
+    }, 
+    "3234": {
+        "attendees": "16", 
+        "date": "2014/4/26", 
+        "end_sign_up_date": "2014/4/19", 
+        "location": "全國性", 
+        "name": "高應大金融系系友會保齡球聯誼", 
+        "status": "報名", 
+        "type": "校友活動", 
+        "unit": "金融系"
+    }, 
+    "3238": {
+        "attendees": "0", 
+        "date": "2014/3/18", 
+        "end_sign_up_date": "2014/3/19", 
+        "location": "全國性", 
+        "name": "【活動訊息】「跟ASTM一起綠地球」有獎徵答活動(2014/5/16截止)", 
+        "status": "報名截止", 
+        "type": "藝文活動", 
+        "unit": "圖書館系統組"
+    }, 
+    "3244": {
+        "attendees": "0", 
+        "date": "2014/3/19", 
+        "end_sign_up_date": "2014/3/19", 
+        "location": "全國性", 
+        "name": "【活動訊息】空中英語教室影音典藏學習系統,學英文送好禮抽獎活動！(2014/4/13截止) ", 
+        "status": "報名截止", 
+        "type": "藝文活動", 
+        "unit": "圖書館系統組"
+    }, 
+    "3251": {
+        "attendees": "0", 
+        "date": "2014/4/18", 
+        "end_sign_up_date": "2014/4/17", 
+        "location": "區域性\n", 
+        "name": "竹科京元電子公司 校外實習說明會", 
+        "status": "報名尚未開始", 
+        "type": "學術活動", 
+        "unit": "電機系"
+    }, 
+    "3303": {
+        "attendees": "2", 
+        "date": "2014/4/24", 
+        "end_sign_up_date": "2014/4/23", 
+        "location": "區域性\n", 
+        "name": "Eview教育訓練", 
+        "status": "報名", 
+        "type": "學術活動", 
+        "unit": "管理學院"
+    }, 
+    "3308": {
+        "attendees": "48", 
+        "date": "2014/4/14", 
+        "end_sign_up_date": "2014/4/14", 
+        "location": "全國性", 
+        "name": "海量資料與資料探勘研習會(Data minig)", 
+        "status": "報名", 
+        "type": "學術活動", 
+        "unit": "教學發展中心"
+    }, 
+    "3311": {
+        "attendees": "52", 
+        "date": "2014/5/16", 
+        "end_sign_up_date": "2014/5/9", 
+        "location": "國際性", 
+        "name": "0516(五)14:30-17:00-全校數位學習平台-教育訓練 ", 
+        "status": "報名", 
+        "type": "學術活動", 
+        "unit": "教學發展中心"
+    }, 
+    "3316": {
+        "attendees": "16", 
+        "date": "2014/4/29", 
+        "end_sign_up_date": "2014/4/28", 
+        "location": " ", 
+        "name": "佳麗寶畢業生美容講座(職涯講座)", 
+        "status": "報名", 
+        "type": "非正式課程", 
+        "unit": "校友中心職輔組"
+    }, 
+    "3318": {
+        "attendees": "10", 
+        "date": "2014/5/3", 
+        "end_sign_up_date": "2014/4/26", 
+        "location": "區域性\n", 
+        "name": "我的身體地圖~自我成長工作坊【燕巢校區】", 
+        "status": "人數已滿", 
+        "type": "非正式課程", 
+        "unit": "學務處諮商中心"
+    }, 
+    "3324": {
+        "attendees": "0", 
+        "date": "2014/4/14", 
+        "end_sign_up_date": "2014/3/27", 
+        "location": "區域性\n", 
+        "name": "「產業學院-契合式專班講座」-如何去了解你的職場性向", 
+        "status": "報名截止", 
+        "type": "學術活動", 
+        "unit": "文創系"
+    }, 
+    "3325": {
+        "attendees": "0", 
+        "date": "2014/4/19", 
+        "end_sign_up_date": "2014/3/27", 
+        "location": "區域性\n", 
+        "name": "業界專家協同教學講座-40前後~視覺美感的創意養成與執行力", 
+        "status": "報名截止", 
+        "type": "學生活動", 
+        "unit": "文創系"
+    }, 
+    "3326": {
+        "attendees": "0", 
+        "date": "2014/4/21", 
+        "end_sign_up_date": "2014/3/27", 
+        "location": "區域性\n", 
+        "name": "  「產業學院-契合式專班講座」- 如何辦好一個活動成為亮點", 
+        "status": "報名截止", 
+        "type": "學生活動", 
+        "unit": "文創系"
+    }, 
+    "3327": {
+        "attendees": "0", 
+        "date": "2014/4/26", 
+        "end_sign_up_date": "2014/3/27", 
+        "location": "區域性\n", 
+        "name": "業界專家協同教學-視覺美感如何運用電腦來做呈現~實際操作課程", 
+        "status": "報名截止", 
+        "type": "學生活動", 
+        "unit": "文創系"
+    }, 
+    "3328": {
+        "attendees": "0", 
+        "date": "2014/5/3", 
+        "end_sign_up_date": "2014/3/27", 
+        "location": "區域性\n", 
+        "name": "業界專家協同教學-品牌要如何設計與行銷才能創造出藍海", 
+        "status": "報名截止", 
+        "type": "學生活動", 
+        "unit": "文創系"
+    }, 
+    "3336": {
+        "attendees": "44", 
+        "date": "2014/4/22", 
+        "end_sign_up_date": "2014/4/22", 
+        "location": " ", 
+        "name": "澳洲打工渡假,是去?還是不去?(職涯講座)", 
+        "status": "報名", 
+        "type": "非正式課程", 
+        "unit": "校友中心職輔組"
+    }, 
+    "3352": {
+        "attendees": "6", 
+        "date": "2014/4/25", 
+        "end_sign_up_date": "2014/4/18", 
+        "location": "區域性\n", 
+        "name": "0425(五)14:00-16:00-燕巢校區-全校數位學習平台-教育訓練 ", 
+        "status": "報名", 
+        "type": "學術活動", 
+        "unit": "教學發展中心"
+    }, 
+    "3354": {
+        "attendees": "0", 
+        "date": "2014/5/9", 
+        "end_sign_up_date": "2014/3/31", 
+        "location": "區域性\n", 
+        "name": "102學年度第2學期與校長有約座談會(建工校區)", 
+        "status": "報名截止", 
+        "type": "學術活動", 
+        "unit": "人事室第二組"
+    }, 
+    "3355": {
+        "attendees": "0", 
+        "date": "2014/5/15", 
+        "end_sign_up_date": "2014/3/31", 
+        "location": "區域性\n", 
+        "name": "102學年度第2學期與校長有約座談會(燕巢校區)", 
+        "status": "報名截止", 
+        "type": "學術活動", 
+        "unit": "人事室第二組"
+    }, 
+    "3365": {
+        "attendees": "64", 
+        "date": "2014/4/22", 
+        "end_sign_up_date": "2014/4/20", 
+        "location": "國際性", 
+        "name": "東亞區域主義與兩岸關係~從ECFA到服務貿易協定", 
+        "status": "報名", 
+        "type": "非正式課程", 
+        "unit": "軍訓室"
+    }, 
+    "3366": {
+        "attendees": "5", 
+        "date": "2014/4/26", 
+        "end_sign_up_date": "2014/4/19", 
+        "location": "區域性\n", 
+        "name": "身心靈自我關照工作坊", 
+        "status": "報名", 
+        "type": "非正式課程", 
+        "unit": "學務處諮商中心"
+    }, 
+    "3378": {
+        "attendees": "13", 
+        "date": "2014/4/18", 
+        "end_sign_up_date": "2014/4/14", 
+        "location": "區域性\n", 
+        "name": "102學年度第2學期通識教師知能研習會", 
+        "status": "報名", 
+        "type": "學術活動", 
+        "unit": "通識教育中心"
+    }, 
+    "3385": {
+        "attendees": "11", 
+        "date": "2014/5/8", 
+        "end_sign_up_date": "2014/5/1", 
+        "location": "區域性\n", 
+        "name": "認識婚姻~親密之旅讀書會", 
+        "status": "報名", 
+        "type": "學術活動", 
+        "unit": "學務處諮商中心"
+    }, 
+    "3397": {
+        "attendees": "100", 
+        "date": "2014/4/25", 
+        "end_sign_up_date": "2014/4/20", 
+        "location": "全國性", 
+        "name": "『今夜 我們尼泊爾 見』專題講座", 
+        "status": "人數已滿", 
+        "type": "非正式課程", 
+        "unit": "學務處課外組"
+    }, 
+    "3404": {
+        "attendees": "8", 
+        "date": "2014/5/17", 
+        "end_sign_up_date": "2014/5/5", 
+        "location": "區域性\n", 
+        "name": "珍愛自己~自我探索與照顧成長團體", 
+        "status": "報名", 
+        "type": "非正式課程", 
+        "unit": "學務處諮商中心"
+    }, 
+    "3408": {
+        "attendees": "19", 
+        "date": "2014/4/16", 
+        "end_sign_up_date": "2014/4/14", 
+        "location": "區域性\n", 
+        "name": "0416(三)14:30-17:00全校數位學習平台-教育訓練 ", 
+        "status": "報名", 
+        "type": "學術活動", 
+        "unit": "教學發展中心"
+    }, 
+    "3409": {
+        "attendees": "0", 
+        "date": "2014/4/7", 
+        "end_sign_up_date": "2014/4/7", 
+        "location": "全國性", 
+        "name": "【活動訊息】食安問題-ScienceDirect有獎徵答活動(2014/4/20截止) ", 
+        "status": "報名截止", 
+        "type": "藝文活動", 
+        "unit": "圖書館系統組"
+    }, 
+    "3410": {
+        "attendees": "0", 
+        "date": "2014/4/7", 
+        "end_sign_up_date": "2014/4/7", 
+        "location": "全國性", 
+        "name": "【活動訊息】牛津OSO電子書有獎徵答活動(2014/4/30截止) ", 
+        "status": "報名截止", 
+        "type": "藝文活動", 
+        "unit": "圖書館系統組"
+    }, 
+    "3411": {
+        "attendees": "0", 
+        "date": "2014/4/7", 
+        "end_sign_up_date": "2014/4/7", 
+        "location": "全國性", 
+        "name": "【活動訊息】《打造成功方程式 中西名人大PK》有獎徵答活動(2014/5/31截止) ", 
+        "status": "報名截止", 
+        "type": "藝文活動", 
+        "unit": "圖書館系統組"
+    }, 
+    "3413": {
+        "attendees": "0", 
+        "date": "2014/4/7", 
+        "end_sign_up_date": "2014/4/7", 
+        "location": "全國性", 
+        "name": "【活動訊息】udn借閱王．閱讀小確幸！(2014/6/15截止) ", 
+        "status": "報名截止", 
+        "type": "藝文活動", 
+        "unit": "圖書館系統組"
+    }, 
+    "3417": {
+        "attendees": "16", 
+        "date": "2014/5/8", 
+        "end_sign_up_date": "2014/5/7", 
+        "location": "區域性\n", 
+        "name": "賃居博覽嘉年華", 
+        "status": "報名", 
+        "type": "學生活動", 
+        "unit": "學務處生輔組"
+    }, 
+    "3418": {
+        "attendees": "0", 
+        "date": "2014/4/21", 
+        "end_sign_up_date": "2014/4/21", 
+        "location": "區域性\n", 
+        "name": "Summer fever夏日狂熱紀錄片影展-【偷天鋼索人】《凌空之夢:1974,我在世貿雙塔上走鋼索》", 
+        "status": "報名", 
+        "type": "藝文活動", 
+        "unit": "圖書館讀者組"
+    }, 
+    "3420": {
+        "attendees": "0", 
+        "date": "2014/4/23", 
+        "end_sign_up_date": "2014/4/23", 
+        "location": "區域性\n", 
+        "name": "Summer fever夏日狂熱紀錄片影展-《尋找甜秘客》", 
+        "status": "報名", 
+        "type": "藝文活動", 
+        "unit": "圖書館讀者組"
+    }, 
+    "3423": {
+        "attendees": "0", 
+        "date": "2014/5/5", 
+        "end_sign_up_date": "2014/5/4", 
+        "location": "區域性\n", 
+        "name": "Summer fever夏日狂熱紀錄片影展-《一首搖滾上月球》", 
+        "status": "報名", 
+        "type": "藝文活動", 
+        "unit": "圖書館讀者組"
+    }, 
+    "3424": {
+        "attendees": "1", 
+        "date": "2014/5/5", 
+        "end_sign_up_date": "2014/5/4", 
+        "location": "區域性\n", 
+        "name": "Summer fever夏日狂熱紀錄片影展-一首搖滾上月球 Rock Me to the Moon", 
+        "status": "報名", 
+        "type": "藝文活動", 
+        "unit": "圖書館讀者組"
+    }, 
+    "3426": {
+        "attendees": "0", 
+        "date": "2014/4/16", 
+        "end_sign_up_date": "2014/4/15", 
+        "location": "區域性\n", 
+        "name": "102學年度第2學期教卓分項計畫A-5之「深化畢業職場追蹤」工作協調會", 
+        "status": "報名", 
+        "type": "學術活動", 
+        "unit": "校友中心服務組"
+    }, 
+    "3427": {
+        "attendees": "17", 
+        "date": "2014/4/23", 
+        "end_sign_up_date": "2014/4/23", 
+        "location": "區域性\n", 
+        "name": "「網路收費系統」暨「捐贈興學網」操作說明會", 
+        "status": "報名", 
+        "type": "學術活動", 
+        "unit": "出納組"
+    }, 
+    "3432": {
+        "attendees": "0", 
+        "date": "2014/4/8", 
+        "end_sign_up_date": "2014/4/4", 
+        "location": "區域性\n", 
+        "name": "票選測試", 
+        "status": "報名截止", 
+        "type": "學術活動", 
+        "unit": "計網中心軟體組"
+    }, 
+    "3433": {
+        "attendees": "21", 
+        "date": "2014/4/28", 
+        "end_sign_up_date": "2014/4/27", 
+        "location": " ", 
+        "name": "職場新鮮人勞動權益面面觀(職涯講座)", 
+        "status": "報名", 
+        "type": "非正式課程", 
+        "unit": "校友中心職輔組"
+    }, 
+    "3445": {
+        "attendees": "0", 
+        "date": "2014/4/10", 
+        "end_sign_up_date": "2014/4/10", 
+        "location": "全國性", 
+        "name": "【活動訊息】華藝線上圖書館動動腦拿機票有獎徵答活動(2014/5/15截止) ", 
+        "status": "報名截止", 
+        "type": "藝文活動", 
+        "unit": "圖書館系統組"
+    }, 
+    "3446": {
+        "attendees": "0", 
+        "date": "2014/4/10", 
+        "end_sign_up_date": "2014/4/10", 
+        "location": "全國性", 
+        "name": "【活動訊息】HyRead 動動手指借書趣(2014/5/20截止) ", 
+        "status": "報名截止", 
+        "type": "藝文活動", 
+        "unit": "圖書館系統組"
+    }, 
+    "3447": {
+        "attendees": "0", 
+        "date": "2014/4/10", 
+        "end_sign_up_date": "2014/4/10", 
+        "location": "全國性", 
+        "name": "【活動訊息】超越維基百科的Credo參考書,幫你解決疑難雜症還請你喝星巴克!(2014/5/14截止) ", 
+        "status": "報名截止", 
+        "type": "藝文活動", 
+        "unit": "圖書館系統組"
+    }, 
+    "3452": {
+        "attendees": "0", 
+        "date": "2014/4/23", 
+        "end_sign_up_date": "2014/4/18", 
+        "location": "區域性\n", 
+        "name": "第三屆資管系卡拉OK大賽-音資繚繞", 
+        "status": "報名", 
+        "type": "學生活動", 
+        "unit": "資管系"
+    }, 
+    "3453": {
+        "attendees": "0", 
+        "date": "2014/4/8", 
+        "end_sign_up_date": "2014/4/25", 
+        "location": "區域性\n", 
+        "name": "第二屆FOCUS30", 
+        "status": "報名", 
+        "type": "學生活動", 
+        "unit": "資管系"
+    }, 
+    "3458": {
+        "attendees": "0", 
+        "date": "2014/4/23", 
+        "end_sign_up_date": "2014/4/23", 
+        "location": "區域性\n", 
+        "name": "進修推廣處102學年度第二學期期中幹部座談會", 
+        "status": "報名尚未開始", 
+        "type": "學生活動", 
+        "unit": "進推處學務組"
+    }, 
+    "3459": {
+        "attendees": "0", 
+        "date": "2014/4/27", 
+        "end_sign_up_date": "2014/4/27", 
+        "location": "區域性\n", 
+        "name": "102學年度第二學期球類競賽 ", 
+        "status": "報名尚未開始", 
+        "type": "學生活動", 
+        "unit": "進推處學務組"
+    }, 
+    "3461": {
+        "attendees": "0", 
+        "date": "2014/4/26", 
+        "end_sign_up_date": "2014/4/26", 
+        "location": "區域性\n", 
+        "name": "102學年度第二學期網球社期中社員大會暨聯誼會", 
+        "status": "報名尚未開始", 
+        "type": "學生活動", 
+        "unit": "進推處學務組"
+    }
+}

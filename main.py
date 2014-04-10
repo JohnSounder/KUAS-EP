@@ -1,12 +1,16 @@
 # -*- coding: utf-8 -*-
 
-import time
 import re
-import collections
-import requests
-from lxml import etree
+import time
 import json
+import collections
+
+import uniout
+import requests
+
+from lxml import etree
 from bs4 import BeautifulSoup
+
 
 ##################################################
 # Settings
@@ -17,6 +21,8 @@ password     = ""
 
 ACTIVE_URL="http://ep.kuas.edu.tw/EPortfolio/Activity/ActivitySystem.aspx"
 POST_URL = "http://ep.kuas.edu.tw/EPortfolio/EPDefaultPage.aspx"
+STATUS_TYPE = {"報名截止": 0, "人數已滿": 0, "報名": 1, "報名尚未開始": 2}
+
 
 headers = {}
 headers["User-Agent"] = "Mozilla/5.0 (Windows NT 6.1; WOW64; rv:28.0) Gecko/20100101 Firefox/28.0"
@@ -90,14 +96,29 @@ def Search(session):
             payload['__EVENTVALIDATION'] = i.attrib['value']
 
 
+
     # RePost Data
     response = session.post(ACTIVE_URL , data = payload, headers = headers)
-    root = etree.HTML(response.text)
-    for i in root.xpath("//a[starts-with(@id, 'ContentPlaceHolder1_ContentPlaceHolder1_TabContainer1_OnLinePanel_gvOnLine_LBact_name_')]"):
-        print i.text.encode('utf8')
-    for i in root.xpath("//input[starts-with(@id, 'ContentPlaceHolder1_ContentPlaceHolder1_TabContainer1_OnLinePanel_gvOnLine_HFact_id_')]"):
-        print i.attrib['value'].encode('utf8')
+    result = {}
 
+    root = etree.HTML(response.text)
+    
+    # All TR in table
+    tr = root.xpath("id('ContentPlaceHolder1_ContentPlaceHolder1_TabContainer1_OnLinePanel_gvOnLine')/tr")[1:]
+    tr = list(map(lambda x: list(x.itertext()), tr))
+
+    # Activity ID
+    result_id = root.xpath("//input[starts-with(@id, 'ContentPlaceHolder1_ContentPlaceHolder1_TabContainer1_OnLinePanel_gvOnLine_HFact_id_')]")
+    result_id = list(map(lambda x: x.attrib['value'], result_id))
+
+    for rid, tr in zip(result_id, tr):
+        result[int(rid)] = {'unit': tr[1], 'date': tr[2], 'end_sign_up_date': tr[3],
+                            'type': tr[4], 'location': tr[5], 'name': tr[7], 'attendees': tr[9],
+                            'status': tr[11]}
+
+
+
+    return result
 
 
 def main():
@@ -110,4 +131,9 @@ def main():
             print y.text.encode('utf8') + "*****" + str(x)
 
 if __name__ == '__main__':
-    Search(Login())
+    session_login = Login()
+    result = Search(session_login)
+
+    print(result)
+
+

@@ -1,0 +1,64 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+ <head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+  <title>KUAS EP Notification</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  
+   <link href="//fonts.googleapis.com/css?family=PT+Serif:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css">
+  <link href="bootstrap.css" rel="stylesheet" />
+  <link href="layout.css" rel="stylesheet" />
+</head>
+<body>
+  <h1>
+    本期新講座
+  </h1>
+  <div>
+   {% for i in result %}
+   {% if '講座' in result[i]['name'] %}
+   <ul>
+    <div class="question">
+     <div class="header">
+       <span>{{ result[i]['name'] }}</span>
+     </div>
+     <div class="qcontent">
+       <p>截止日期：{{ result[i]['end_sign_up_date'] }}</p>
+       <p>活動日期：{{ result[i]['date'] }}</p>
+       <p>目前人數：{{ result[i]['attendees'] }}</p>
+       <p>目前狀況：{{ result[i]['status'] }}</p>
+       <p>編號： {{ i }}</p>
+     </div>
+     <HR color="#000000" size="10" >
+    </div>
+   </ul>
+   {% endif %}
+   {% endfor %}   
+  </div>
+
+  {% if old_result != None %}
+  <h1> 前情提要 <h1>
+  <div>
+   {% for i in old_result %}
+   {% if '講座' in old_result[i | int]['name'] %}
+   <ul>
+    <div class="question">
+     <div class="header">
+       <span>{{ result[i]['name'] }}</span>
+     </div>
+     <div class="qcontent">
+       <p>截止日期：{{ old_result[i]['end_sign_up_date'] }}</p>
+       <p>活動日期：{{ old_result[i]['date'] }}</p>
+       <p>目前人數：{{ old_result[i]['attendees'] }}</p>
+       <p>目前狀況：{{ old_result[i]['status'] }}</p>
+       <p>編號： {{ i }}</p>
+     </div>
+     <HR color="#000000" size="10" >
+    </div>
+   </ul>
+   {% endif %}
+   {% endfor %}   
+  </div>
+
+  {% endif %}
+</body>
+</html>

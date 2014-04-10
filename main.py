@@ -1,5 +1,6 @@
 # -*- coding: utf-8 -*-
 
+import os
 import re
 import time
 import json
@@ -18,6 +19,10 @@ from bs4 import BeautifulSoup
 
 username     = "1102108131"
 password     = ""
+
+
+JSON_FILE = "activity.json"
+OLD_JSON_FILE = "old_activity.json"
 
 ACTIVE_URL="http://ep.kuas.edu.tw/EPortfolio/Activity/ActivitySystem.aspx"
 POST_URL = "http://ep.kuas.edu.tw/EPortfolio/EPDefaultPage.aspx"
@@ -123,21 +128,51 @@ def Search(session):
     #for i, j in zip(result_id, result_name):
     #    result[int(i)] = j
 
+
+    if not os.path.isfile(JSON_FILE):
+        open(JSON_FILE, "w").write(to_json(result).encode('utf-8'))
+
+
     return result
 
 
+def Update():
+    original = json.loads(open(JSON_FILE, "r").read())
+    original_id = set(original)
+
+    result = Search(Login())
+    result_id = set(result)
+
+    diff_id = result_id - original_id
+
+
+    if diff_id:
+        original = {}
+        for i in diff_id:
+            original[i] = result[i]
+
+        open(OLD_JSON_FILE, "w").write(to_json(original).encode('utf-8'))
+        open(JSON_FILE, "w").write(to_json(result).encode('utf-8'))
+
+
+def to_json(d):
+    return json.dumps(d, ensure_ascii=False, sort_keys=True, indent=4)
+
+
 def main():
-    
-    url = "http://ep.kuas.edu.tw/EPortfolio/Activity/Activity.aspx?QS=QS&ActId="
-    for x in xrange(72,4000):
-        response = requests.get(url + str(x))
-        bs = BeautifulSoup(response.content)
-        for y in bs.findAll('span', id=re.compile("^ContentPlaceHolder1_ContentPlaceHolder1_fvActivities_Lbact_name")):
-            print y.text.encode('utf8') + "*****" + str(x)
+    if os.path.isfile(JSON_FILE):
+        print("Update")
+        Update()
+    else:
+        print("Init data")
+        Search()
+
+
 
 if __name__ == '__main__':
-    session_login = Login()
-    result = Search(session_login)
+    #session_login = Login()
+    #result = Search(session_login)
+    #print(result)
 
 
-
+    main()
